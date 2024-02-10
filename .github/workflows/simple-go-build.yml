@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Setup Go version
+    - name: Setup Go version now
       uses: actions/setup-go@v2
       with:
         go-version: '1.15.1'
